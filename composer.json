@@ -1,0 +1,29 @@
+{
+    "name": "openslider/phpi2c",
+    "description": "A library to interact with the Linux I2C interface",
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "OpenSlider\\PHPI2C\\": "src/OpenSlider/phpi2c"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Unit\\": "tests/unit/"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "php-mock/php-mock": "^1.0",
+        "php-mock/php-mock-phpunit": "^1.1"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.x-dev"
+        }
+    }
+}
