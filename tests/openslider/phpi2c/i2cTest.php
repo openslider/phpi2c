@@ -5,10 +5,6 @@ namespace Tests\Unit\OpenSlider\phpi2c;
 use phpmock\phpunit\PHPMock;
 use OpenSlider\PHPI2C\i2c;
 
-function shell_exec($cmd) {
-    return i2cTest::$functions->shell_exec($cmd);
-}
-
 final class i2cTest extends \PHPUnit_Framework_TestCase
 {
     use PHPMock;
